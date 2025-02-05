@@ -2,7 +2,11 @@ from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
 
-DEFAULT_IMAGE_URL = "https://www.iconfinder.com/icons/9165485/smiling_with_eyes_emoji_face_icon"
+DEFAULT_IMAGE_URL = "https://images.pexels.com/photos/825947/pexels-photo-825947.jpeg?auto=compress&cs=tinysrgb&w=400"
+
+# DEFAULT_IMAGE_URL = "https://pics.freeicons.io/uploads/icons/png/2990772061644664340-512.png"
+
+# DEFAULT_IMAGE_URL = "https://www.freeiconspng.com/uploads/icon-user-blue-symbol-people-person-generic--public-domain--21.png"
 
 class User(db.Model):
     """Site user."""
